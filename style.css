@@ -1,0 +1,141 @@
+.sliderBox {
+    background: none repeat scroll 0 0 #2C2C2C;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 auto 10px;
+    position: relative;
+    width: 680px;
+}
+.sliderBox .leftArrow {
+    background: url("images/arrows.png") no-repeat scroll 0 -29px transparent;
+    display: block;
+    height: 9px;
+    left: 10px;
+    position: absolute;
+    top: 45px;
+    width: 5px;
+}
+.sliderBox .sliderBoxList {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 12px 0;
+    position: relative;
+    width: 625px;
+}
+.sliderBox .rightArrow {
+    background: url("images/arrows.png") no-repeat scroll -5px -29px transparent;
+    display: block;
+    height: 9px;
+    position: absolute;
+    right: 10px;
+    top: 45px;
+    width: 5px;
+}
+.sliderBox ul {
+    height: 75px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.sliderBox li {
+    float: left;
+    width: 125px;
+}
+
+.sliderBox .notActive,.sliderBox2 .notActive {
+	cursor: default;
+}
+.sliderBox .leftArrow.notActive {
+	background: url("images/arrows.png") no-repeat scroll -22px -30px transparent !important;*/
+}
+.sliderBox .rightArrow.notActive {
+	background: url("images/arrows.png") no-repeat scroll -27px -30px transparent !important;*/
+}
+.sliderBox2 .leftArrow.notActive {
+	background: url("images/arrows.png") no-repeat scroll -22px -30px transparent !important;*/
+}
+.sliderBox2 .rightArrow.notActive {
+	background: url("images/arrows.png") no-repeat scroll -27px -30px transparent !important;*/
+}
+
+.sliderBox .sliderBoxList a {
+    display: block;
+    height: 70px;
+    margin: 0 auto;
+    width: 105px;
+}
+
+.sliderBox .sliderBoxList a img {
+    border: 1px solid #E9E9E9;
+    border-radius: 5px 5px 5px 5px;
+    height: 70px;
+    width: 105px;
+}
+
+.activeThumb {
+    border-color: #FF0000 !important;
+}
+
+/******************************/
+.sliderBox2 {
+    background: none repeat scroll 0 0 #2C2C2C;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 auto 10px;
+    position: relative;
+    width: 127px;
+	height: 446px;
+	padding-bottom: 15px;
+    padding-top: 15px;
+}
+.sliderBox2 .leftArrow {
+    background: url("images/arrows.png") no-repeat scroll 0 -29px transparent;
+    display: block;
+    height: 5px;
+    left: 10px;    
+    top: 45px;
+    width: 10px;
+	margin: 0 auto 10px;
+}
+.sliderBox2 .sliderBoxList {
+    margin: 0 auto;
+    overflow: hidden;   
+    position: relative;
+    height: 415px;
+}
+.sliderBox2 .rightArrow {
+    background: url("images/arrows.png") no-repeat scroll 0px -33px transparent;
+    display: block;
+    height: 5px;    
+    right: 10px;
+    top: 45px;
+    width: 10px;
+	margin: 10px auto 0;
+}
+.sliderBox2 ul {
+    height: 75px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.sliderBox2 li {
+    float: left;
+    width: 125px;
+	height: 83px;
+	display: inline-block;
+}
+
+.sliderBox2 .sliderBoxList a {
+    display: block;
+    height: 70px;
+    margin: 0 auto;
+    width: 105px;
+	padding-top: 5px;
+}
+
+.sliderBox2 .sliderBoxList a img {
+    border: 1px solid #E9E9E9;
+    border-radius: 5px 5px 5px 5px;
+    height: 70px;
+    width: 105px;
+}
